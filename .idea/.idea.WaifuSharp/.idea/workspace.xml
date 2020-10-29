@@ -6,9 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fc116ce-da2e-4d96-9f6e-e581c60e3bbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WaifuSharp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaifuSharp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WaifuSharp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WaifuSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaifuSharp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WaifuSharp/WaifuSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WaifuSharp/WaifuSharp.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +26,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Publish WaifuSharp to folder" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish runtime="Portable" target_folder="$PROJECT_DIR$" target_framework="netcoreapp3.1" uuid_high="-5840921170236453235" uuid_low="-7055859142276874541" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Publish to folder.Publish WaifuSharp to folder" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604001954995</updated>
-      <workItem from="1604001960875" duration="1401000" />
+      <workItem from="1604001960875" duration="2278000" />
     </task>
     <servers />
   </component>
@@ -64,13 +74,21 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="736" y="322" width="426" height="486" key="FileChooserDialogImpl" timestamp="1604004011185">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="736" y="322" width="426" height="486" key="FileChooserDialogImpl/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1604004011185" />
     <state x="554" y="286" width="802" height="532" key="Rider.ProjectTemplateDialog.Size" timestamp="1604001954910">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="554" y="286" width="802" height="532" key="Rider.ProjectTemplateDialog.Size/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1604001954910" />
-    <state x="463" y="187" key="SettingsEditor" timestamp="1604003282978">
+    <state x="463" y="187" key="SettingsEditor" timestamp="1604003984351">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="463" y="187" key="SettingsEditor/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1604003282978" />
+    <state x="463" y="187" key="SettingsEditor/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1604003984351" />
+    <state x="100" y="125" width="1720" height="855" key="VCS.FileHistoryDialog" timestamp="1604003934893">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="100" y="125" width="1720" height="855" key="VCS.FileHistoryDialog/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1604003934893" />
   </component>
 </project>
