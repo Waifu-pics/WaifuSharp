@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <PackageVersion>0.0.1</PackageVersion>
+        <PackageVersion>0.0.3</PackageVersion>
         <Title>WaifuSharp</Title>
         <Authors>Waifu-pics</Authors>
         <Description>Simple Waifu.pics wrapper for .NET</Description>
@@ -13,6 +13,7 @@
         <RepositoryUrl>https://github.com/Waifu-pics/WaifuSharp</RepositoryUrl>
         <RepositoryType>GIT</RepositoryType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageTags>discord</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

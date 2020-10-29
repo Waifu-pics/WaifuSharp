@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fc116ce-da2e-4d96-9f6e-e581c60e3bbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WaifuSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WaifuSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WaifuSharp/WaifuClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WaifuSharp/WaifuClient.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WaifuSharp/WaifuSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WaifuSharp/WaifuSharp.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +16,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WaifuSharp/WaifuImage.cs" />
+        <option value="$PROJECT_DIR$/WaifuSharp/WaifuClient.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1jZBuHBebQt4KwANbqxXtpsEimT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,13 +59,14 @@
       <option name="presentableId" value="Default" />
       <updated>1604001954995</updated>
       <workItem from="1604001960875" duration="2278000" />
+      <workItem from="1604004800938" duration="299000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -69,6 +78,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -82,10 +92,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="554" y="286" width="802" height="532" key="Rider.ProjectTemplateDialog.Size/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1604001954910" />
-    <state x="463" y="187" key="SettingsEditor" timestamp="1604003984351">
+    <state x="463" y="187" key="SettingsEditor" timestamp="1604004886354">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="463" y="187" key="SettingsEditor/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1604003984351" />
+    <state x="463" y="187" key="SettingsEditor/0.25.1920.1055/1920.0.1920.1080@0.25.1920.1055" timestamp="1604004886354" />
     <state x="100" y="125" width="1720" height="855" key="VCS.FileHistoryDialog" timestamp="1604003934893">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
