@@ -7,8 +7,6 @@
       <e p="WaifuSharp" t="IncludeRecursive">
         <e p="Constants.cs" t="Include" />
         <e p="Endpoints.cs" t="Include" />
-        <e p="LICENSE" t="Include" />
-        <e p="README.md" t="Include" />
         <e p="WaifuClient.cs" t="Include" />
         <e p="WaifuImage.cs" t="Include" />
         <e p="WaifuSharp.csproj" t="IncludeRecursive" />

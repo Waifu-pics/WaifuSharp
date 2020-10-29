@@ -2,6 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Title>WaifuSharp</Title>
+        <Authors>Waifu-pics</Authors>
+        <Description>Simple Waifu.pics wrapper for .NET</Description>
+        <Copyright>Copyright ©2020 Waifu.pics</Copyright>
+        <PackageProjectUrl>https://github.com/Waifu-pics/WaifuSharp</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Waifu-pics/WaifuSharp/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageIconUrl>https://i.imgur.com/1gUdy3H.png</PackageIconUrl>
+        <RepositoryUrl>https://github.com/Waifu-pics/WaifuSharp</RepositoryUrl>
+        <RepositoryType>GIT</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>
