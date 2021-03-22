@@ -1,4 +1,4 @@
-namespace WaifuSharp
+namespace WaifuSharp.Old
 {
     public class Endpoints
     {
