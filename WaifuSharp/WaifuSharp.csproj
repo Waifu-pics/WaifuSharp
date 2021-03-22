@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netstandard2.1</TargetFramework>
         <PackageVersion>0.0.3</PackageVersion>
         <Title>WaifuSharp</Title>
         <Authors>Waifu-pics</Authors>
         <Description>Simple Waifu.pics wrapper for .NET</Description>
-        <Copyright>Copyright ©2020 Waifu.pics</Copyright>
+        <Copyright>Copyright ©2021 Waifu.pics</Copyright>
         <PackageProjectUrl>https://github.com/Waifu-pics/WaifuSharp</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/Waifu-pics/WaifuSharp/blob/master/LICENSE</PackageLicenseUrl>
         <PackageIconUrl>https://i.imgur.com/1gUdy3H.png</PackageIconUrl>
@@ -17,7 +17,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     </ItemGroup>
 
 </Project>
