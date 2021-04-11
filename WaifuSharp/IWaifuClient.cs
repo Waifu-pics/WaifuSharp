@@ -7,10 +7,10 @@ namespace WaifuSharp
 {
     public interface IWaifuClient
     {
-        [Get("/sfw/{category}")]
+        [Get("/api/sfw/{category}")]
         Task<WaifuImage> GetSfwImageAsync(SfwCategory category);
 
-        [Get("/nsfw/{category}")]
+        [Get("/api/nsfw/{category}")]
         Task<WaifuImage> GetNsfwImageAsync(NsfwCategory category);
     }
 }
