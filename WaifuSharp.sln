@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaifuSharp", "WaifuSharp\WaifuSharp.csproj", "{AEF0E124-66FF-4E8D-9E14-8D7E5F64FED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaifuSharp", "src\WaifuSharp\WaifuSharp.csproj", "{AEF0E124-66FF-4E8D-9E14-8D7E5F64FED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaifuSharp.Tests", "Tests\WaifuSharp.Tests\WaifuSharp.Tests.csproj", "{98626697-CEAD-49AF-AE7E-9A069DF0104E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaifuSharp.Tests", "tests\WaifuSharp.Tests\WaifuSharp.Tests.csproj", "{98626697-CEAD-49AF-AE7E-9A069DF0104E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

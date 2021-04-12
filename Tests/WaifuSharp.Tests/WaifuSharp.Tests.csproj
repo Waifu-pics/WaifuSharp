@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\WaifuSharp\WaifuSharp.csproj" />
+    <ProjectReference Include="..\..\src\WaifuSharp\WaifuSharp.csproj" />
   </ItemGroup>
 
 </Project>
