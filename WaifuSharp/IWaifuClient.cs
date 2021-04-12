@@ -1,5 +1,5 @@
-﻿using Refit;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Refit;
 using WaifuSharp.Models;
 using WaifuSharp.Models.Enums;
 
