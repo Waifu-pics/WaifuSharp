@@ -1,10 +1,7 @@
-﻿using System;
-using System.Net.Http;
-using System.Text.Json;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Refit;
+using System.Threading.Tasks;
 using WaifuSharp.Models;
 using WaifuSharp.Models.Enums;
 
