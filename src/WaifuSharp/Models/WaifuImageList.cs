@@ -1,11 +1,9 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 
 namespace WaifuSharp.Models
 {
     public class WaifuImageList
     {
-        [JsonProperty("files")] public string[]? Images { get; set; }
+        [JsonProperty("files")] public string[] ImageUrls { get; set; }
     }
 }

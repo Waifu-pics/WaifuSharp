@@ -44,7 +44,7 @@ public class WaifuSharpTests
         var result = client.GetManySfwImageAsync(SfwCategory.Neko).Result;
 
         // Assert
-        result.Images.Length.Should().BeGreaterThan(0);
+        result.ImageUrls.Length.Should().BeGreaterThan(0);
     }
 
     public void GetManySfwImageAsync_CategoryAndSettingsGiven_ReturnImage()
@@ -57,7 +57,7 @@ public class WaifuSharpTests
         var result = client.GetManySfwImageAsync(SfwCategory.Neko, settings).Result;
 
         // Assert
-        result.Images.Length.Should().BeGreaterThan(0);
+        result.ImageUrls.Length.Should().BeGreaterThan(0);
     }
 
     public void GetManyNsfwImageAsync_CategoryGiven_ReturnImage()
@@ -69,7 +69,7 @@ public class WaifuSharpTests
         var result = client.GetManyNsfwImageAsync(NsfwCategory.Neko).Result;
 
         // Assert
-        result.Images.Length.Should().BeGreaterThan(0);
+        result.ImageUrls.Length.Should().BeGreaterThan(0);
     }
 
 
@@ -84,6 +84,6 @@ public class WaifuSharpTests
         var result = client.GetManyNsfwImageAsync(NsfwCategory.Neko, settings).Result;
 
         // Assert
-        result.Images.Length.Should().BeGreaterThan(0);
+        result.ImageUrls.Length.Should().BeGreaterThan(0);
     }
 }

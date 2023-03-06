@@ -5,6 +5,6 @@ namespace WaifuSharp.Models
 {
     public class WaifuImage
     {
-        [JsonProperty("url")] public Uri ImageUrl { get; set; }
+        [JsonProperty("url")] public string? ImageUrl { get; set; }
     }
 }
