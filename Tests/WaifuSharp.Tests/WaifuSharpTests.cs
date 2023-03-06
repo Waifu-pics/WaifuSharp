@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WaifuSharp.Models;
 using WaifuSharp.Models.Enums;
 
 namespace WaifuSharp.Tests;
@@ -35,9 +36,37 @@ public class WaifuSharpTests
         result.ImageUrl.Should().NotBeNull();
     }
 
-
-    public static IEnumerable<object[]> EnumValues(object enumToTest)
+    [TestMethod]
+    public void GetManySfwImageAsync_CategoryGiven_ReturnImage()
     {
-        foreach (var thing in Enum.GetValues(enumToTest as Type ?? typeof(SfwCategory))) yield return new[] { thing };
+        // Arrange
+        var client = new WaifuClient();
+        var settings = new WaifuClientSettings()
+        {
+            Filters = new string[0]
+        };
+
+        // Act
+        var result = client.GetManySfwImageAsync(SfwCategory.Neko, settings).Result;
+
+        // Assert
+        result.Images.Length.Should().BeGreaterThan(0);
+    }
+
+    [TestMethod]
+    public void GetManyNsfwImageAsync_CategoryGiven_ReturnImage()
+    {
+        // Arrange
+        var client = new WaifuClient();
+        var settings = new WaifuClientSettings()
+        {
+            Filters = new string[0]
+        };
+
+        // Act
+        var result = client.GetManyNsfwImageAsync(NsfwCategory.Neko, settings).Result;
+
+        // Assert
+        result.Images.Length.Should().BeGreaterThan(0);
     }
 }
