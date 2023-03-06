@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
-        <PackageVersion>0.0.3</PackageVersion>
+        <TargetFramework>net6.0</TargetFramework>
+        <PackageVersion>0.0.4</PackageVersion>
         <Title>WaifuSharp</Title>
         <Authors>Waifu-pics</Authors>
         <Description>Simple Waifu.pics wrapper for .NET</Description>
@@ -14,6 +14,8 @@
         <RepositoryType>GIT</RepositoryType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageTags>discord</PackageTags>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
