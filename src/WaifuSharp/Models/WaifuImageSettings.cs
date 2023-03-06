@@ -2,7 +2,7 @@
 
 namespace WaifuSharp.Models
 {
-    public class WaifuClientSettings
+    public class WaifuImageSettings
     {
         [AliasAs("exclude")]
         public string[] Filters { get; set; } = Array.Empty<string>();

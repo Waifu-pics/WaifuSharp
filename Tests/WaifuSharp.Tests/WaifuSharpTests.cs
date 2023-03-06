@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WaifuSharp.Models;
@@ -41,10 +39,19 @@ public class WaifuSharpTests
     {
         // Arrange
         var client = new WaifuClient();
-        var settings = new WaifuClientSettings()
-        {
-            Filters = new string[0]
-        };
+
+        // Act
+        var result = client.GetManySfwImageAsync(SfwCategory.Neko).Result;
+
+        // Assert
+        result.Images.Length.Should().BeGreaterThan(0);
+    }
+
+    public void GetManySfwImageAsync_CategoryAndSettingsGiven_ReturnImage()
+    {
+        // Arrange
+        var client = new WaifuClient();
+        var settings = new WaifuImageSettings();
 
         // Act
         var result = client.GetManySfwImageAsync(SfwCategory.Neko, settings).Result;
@@ -53,15 +60,25 @@ public class WaifuSharpTests
         result.Images.Length.Should().BeGreaterThan(0);
     }
 
-    [TestMethod]
     public void GetManyNsfwImageAsync_CategoryGiven_ReturnImage()
     {
         // Arrange
         var client = new WaifuClient();
-        var settings = new WaifuClientSettings()
-        {
-            Filters = new string[0]
-        };
+
+        // Act
+        var result = client.GetManyNsfwImageAsync(NsfwCategory.Neko).Result;
+
+        // Assert
+        result.Images.Length.Should().BeGreaterThan(0);
+    }
+
+
+    [TestMethod]
+    public void GetManyNsfwImageAsync_CategoryAndSettingsGiven_ReturnImage()
+    {
+        // Arrange
+        var client = new WaifuClient();
+        var settings = new WaifuImageSettings();
 
         // Act
         var result = client.GetManyNsfwImageAsync(NsfwCategory.Neko, settings).Result;

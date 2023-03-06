@@ -37,12 +37,12 @@ namespace WaifuSharp
             return _service.GetNsfwImageAsync(category);
         }
 
-        public Task<WaifuImageList> GetManySfwImageAsync(SfwCategory category = SfwCategory.Waifu, WaifuClientSettings settings = null)
+        public Task<WaifuImageList> GetManySfwImageAsync(SfwCategory category = SfwCategory.Waifu, WaifuImageSettings settings = null)
         {
             return _service.GetManySfwImageAsync(category, settings);
         }
 
-        public Task<WaifuImageList> GetManyNsfwImageAsync(NsfwCategory category = NsfwCategory.Waifu, WaifuClientSettings settings = null)
+        public Task<WaifuImageList> GetManyNsfwImageAsync(NsfwCategory category = NsfwCategory.Waifu, WaifuImageSettings settings = null)
         {
             return _service.GetManyNsfwImageAsync(category, settings);
         }
