@@ -24,6 +24,6 @@ WaifuClient client = new WaifuClient();
 WaifuImageList imageList = await client.GetManySfwImageAsync(SfwCategory.Neko);
 foreach (string url in imageList.ImageUrls)
 {
-  Console.WriteLine(url);
+    Console.WriteLine(url);
 }
 ```
