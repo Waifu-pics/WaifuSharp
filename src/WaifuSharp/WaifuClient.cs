@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Refit;
 using WaifuSharp.Models;
@@ -24,7 +23,7 @@ namespace WaifuSharp
 
         public WaifuClient()
         {
-            _service = RestService.For<IWaifuClient>("https://waifu.pics", Settings);
+            _service = RestService.For<IWaifuClient>("https://api.waifu.pics", Settings);
         }
 
         public Task<WaifuImage> GetSfwImageAsync(SfwCategory category = SfwCategory.Waifu)
@@ -35,6 +34,16 @@ namespace WaifuSharp
         public Task<WaifuImage> GetNsfwImageAsync(NsfwCategory category = NsfwCategory.Waifu)
         {
             return _service.GetNsfwImageAsync(category);
+        }
+
+        public Task<WaifuImageList> GetManySfwImageAsync(SfwCategory category = SfwCategory.Waifu, WaifuImageSettings? settings = null)
+        {
+            return _service.GetManySfwImageAsync(category, settings);
+        }
+
+        public Task<WaifuImageList> GetManyNsfwImageAsync(NsfwCategory category = NsfwCategory.Waifu, WaifuImageSettings? settings = null)
+        {
+            return _service.GetManyNsfwImageAsync(category, settings);
         }
     }
 }
